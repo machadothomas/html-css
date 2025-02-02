@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste imagem dimensionada</h1>
+    <picture>
+         <source media="(max-width: 750px)" srcset="imagens/teste2.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/teste1.png" type="image/png">
+        <img src="imagens/teste3.png" alt="imagem flexivel">
+    </picture>
+        <audio preload="metadata" autocapitalize controls>
+            <source src="audio/audiorock.mp3" type="audio/mpeg">
+            <source src="audio/audiorock.mp3" type="audio/ogg">
+         </audio>
+         <p>Caso não consiga ouvir o audio</p><a href="audio/audiorock.mp3" target="_blank" rel="external">clique aqui</a>
+
+    <video width="500" poster="imagens/teste1.png" controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+    </video>
+    
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/nuRoMXFGZbM?si=LlNW708448yW6pmN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe src="https://player.vimeo.com/video/63508813?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="500" height="213" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="X Y Z"></iframe>
+   
+</html>
