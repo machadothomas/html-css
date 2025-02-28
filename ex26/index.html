@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>SEX</legend>
+        <input type="radio" name="sex" id="isexmas"><label for="sex">Masculino</label>
+        <input type="radio" name="sex" id="isexfem"><label for="sex">Feminino</label>
+    </fieldset>
+
+       <fieldset>
+        <legend>TESTE</legend>
+           <form action="com.php"method="post">
+            <p><label for="inome">Nome</label>
+            <input type="text" name="Nome" id="inome" placeholder="Name complet" min="5" max="15"></p>
+           
+            <p><label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" placeholder="password" min="4" max="10"></p>
+           
+            <p><label for="inumero">Numero</label>
+            <input type="number" name="numero" id="inumero" placeholder="idade" min="10" max="99"></p>
+            <input type="checkbox" name="efut"  id="ifut"> <label for="ifut">Futebol</label>
+           
+            <p><input type="submit" value="Enviar"></p>
+           
+            <p><input type="reset" value="reset"></p>
+           </form>
+       </fieldset>
+       <p><label for="inota">de sua nota</label>
+      <input type="range"  name="nota" id="inota"></p>
+
+      <p>
+        <label for="ipic">Foto</label>
+        <input type="file" name="pic" id="ipic">
+      </p>
+
+
+
+
+
+</body>
+</html>
