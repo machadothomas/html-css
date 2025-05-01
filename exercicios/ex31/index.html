@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items-flex</title>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    div.container{
+        display: flex;
+        background-color: brown;
+        height: 600px;
+        width: 600px;
+        flex-flow: row nowrap;
+       align-items: flex-start;
+    }
+    div.item{
+        background-color: aqua;
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+    div#a1 {
+        align-self: auto;
+    }
+    div#a2 {
+        align-self: self-start;
+    }
+    div#a3 {
+        align-self: self-end;
+    }
+    div#a4 {
+        align-self: center;
+    }
+    div#a5 {
+        align-self: stretch;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="a1">A</div>
+        <div class="item" id="a2">B</div>
+        <div class="item" id="a3">C</div>
+        <div class="item" id="a4">D</div>
+        <div class="item" id="a5">E</div>
+    </div>
+</body>
+</html>
